@@ -28,5 +28,13 @@ public class MainActivity extends AppCompatActivity {
             img.setImageResource(R.drawable.img1); //
             button.setImageResource(R.drawable.img4);
         }
+        else if (random == 2) {
+            img.setImageResource(R.drawable.img2);
+            button.setImageResource(R.drawable.img5);
+        }
+        else if (random == 3) {
+            img.setImageResource(R.drawable.img3);
+            button.setImageResource(R.drawable.img6);
+        }
     }
 }
